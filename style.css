@@ -1,0 +1,79 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Use a common font for Arabic and English characters */
+    line-height: 1.6;
+    color: #fff; /* Set the text color to white */
+    background-color: #000; /* Set the background color to black */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #ff0000; /* Set the heading color to red (#ff0000) */
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ff0000; /* Set the heading color to red (#ff0000) */
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Styling the product section */
+#products {
+    margin-top: 30px;
+}
+
+.product {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000; /* Set the product name color to black */
+}
+
+.product p {
+    color: #666; /* Set the product description color to a darker gray (#666) */
+}
+
+/* Styling the contact section */
+#contact {
+    margin-top: 30px;
+}
+
+#contact p {
+    color: #fff; /* Set the contact section text color to white */
+}
+
+/* Customizing the checkout button */
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff0000; /* Set the button color to red (#ff0000) */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #990000; /* Darker red (#990000) on hover */
+}
